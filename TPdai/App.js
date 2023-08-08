@@ -39,7 +39,10 @@ const App = () => {
       title="Aceptar (button)"
       onPress={() => console.log("Nombre:", {name}," Teléfono:", {cel}," Email:",{mail}," Clave:",{clave})}
       ></Button>
-      
+      <TouchableOpacity
+      title="Aceptar (Touchable)"
+      onPress={() => console.log("Nombre:", {name}," Teléfono:", {cel}," Email:",{mail}," Clave:",{clave})}
+      ><Text>Aceptar (Touchable)</Text></TouchableOpacity>
   </SafeAreaView>  
   ); 
 };
